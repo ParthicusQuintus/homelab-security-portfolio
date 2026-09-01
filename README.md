@@ -1,8 +1,8 @@
-# Homelab Security Portfolio
+# Castellum Homelab Security Portfolio
 
-A continuously developed cybersecurity and infrastructure homelab used to build hands-on experience with network security, Linux administration, SIEM, intrusion detection, virtualization, containerization, monitoring, automation, identity management, and backup/recovery.
+A continuously developed cybersecurity and infrastructure homelab used to build hands-on experience with network security, Linux/Windows administration, SIEM, intrusion detection/prevention, virtualization, containerization, monitoring, automation, identity management, and backup/recovery.
 
-The environment includes physical and virtual Linux systems, segmented VLANs, Docker workloads, Proxmox virtualization, OPNsense routing and firewalling, centralized security monitoring, and self-hosted applications.
+The environment includes physical and virtual Linux/Windows systems, segmented VLANs, Docker workloads, Proxmox virtualization, OPNsense routing and firewalling, centralized security monitoring, and self-hosted applications.
 
 ## Architecture
 
@@ -12,7 +12,7 @@ The environment includes physical and virtual Linux systems, segmented VLANs, Do
 
 - Network segmentation and firewall policy
 - SIEM and centralized logging
-- IDS and network traffic analysis
+- IDS/IPS and network traffic analysis
 - Linux administration and hardening
 - Virtualization and containers
 - Monitoring and alerting
@@ -33,8 +33,8 @@ Documentation is being added incrementally as I work through the environment.
 
 - Wazuh SIEM/XDR
 - Graylog centralized logging
-- Suricata IDS
-- OPNsense firewall and VPN
+- Suricata IDS/IPS
+- OPNsense firewall and VPN/WireGuard
 - Traefik reverse proxy and edge security
 - Security automation with n8n
 - Linux hardening and compliance
