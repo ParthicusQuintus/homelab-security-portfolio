@@ -33,8 +33,8 @@ Documentation is being added incrementally as I work through the environment.
 
 - Wazuh SIEM/XDR
 - Graylog centralized logging
-- Suricata IDS/IPS
-- OPNsense firewall and VPN/WireGuard
+- Proxmox Virtualization
+- OPNsense firewall. Suricata IDS/IPS, and VPN/WireGuard
 - Traefik reverse proxy and edge security
 - Security automation with n8n
 - Linux hardening and compliance
