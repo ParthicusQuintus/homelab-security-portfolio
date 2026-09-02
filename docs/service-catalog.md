@@ -1,6 +1,6 @@
 | Service   | Category       | Platform | Purpose                   | Documentation |
 |-----------|----------------|----------|---------------------------|---------------|
-| Wazuh     | Security       | Linux    | SIEM/XDR                  | View project  |
+| [Wazuh](security/wazuh.md)     | Security       | Linux    | SIEM/XDR                  | View project  |
 | Graylog   | Security       | Linux    | Central logging           | View project  |
 | Suricata  | Security       | Linux    | Network IDS               | View project  |
 | CrowdSec  | Security       | Docker   | Behavioral blocking       | View project  |
