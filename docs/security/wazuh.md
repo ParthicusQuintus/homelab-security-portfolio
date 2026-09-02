@@ -31,21 +31,17 @@ NVMe storage using bind mounts.
 
 ## Architecture
 
-\`\`\`mermaid graph LR A[Linux Agents] --> C[Wazuh Manager]
-
-B[Suricata Events] --> C
-
-C --> D[Wazuh Indexer]
-
-C --> F[Stalwart Mail]
-
-C --> I[SIGNL4]
-
-D --> E[Wazuh Dashboard]
-
-F --> G[n8n]
-
-G --> H[Gotify] \`\`\`
+```mermaid
+graph LR
+    A[Linux Agents] --> C[Wazuh Manager]
+    B[Suricata Events] --> C
+    C --> D[Wazuh Indexer]
+    C --> F[Stalwart Mail]
+    C --> I[SIGNL4]
+    D --> E[Wazuh Dashboard]
+    F --> G[n8n]
+    G --> H[Gotify]
+```
 
 ## Storage Design
 
