@@ -3,7 +3,7 @@
 ## Objective
 
 I deployed Wazuh to gain hands-on experience operating an open-source
-SIEM/XDR platform in a continuously running homelab environment.
+SIEM/XDR platform in my continuously running homelab environment.
 
 My goals were to centralize host security telemetry, monitor Linux and
 Windows systems, integrate network-security events, develop and tune
@@ -56,7 +56,7 @@ outside Docker's internal volume directory structure.
 ## Security Configuration
 
 - Host firewall policy restricts access to required Wazuh services.
-- Wazuh agents are enrolled only from authorized homelab systems.
+- Wazuh agents are enrolled only from my local authorized homelab systems.
 - Administrative access is restricted to internal management networks.
 - Custom rules are used to tune detections for the environment.
 - Security telemetry is centralized for correlation and investigation.
