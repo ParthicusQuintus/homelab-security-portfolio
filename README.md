@@ -31,7 +31,7 @@ The environment includes physical and virtual Linux/Windows systems, segmented V
 
 Documentation is being added incrementally as I work through the environment.
 
-- Wazuh SIEM/XDR
+- [Wazuh SIEM/XDR](docs/security/wazuh.md)
 - Graylog centralized logging
 - Proxmox Virtualization
 - OPNsense firewall. Suricata IDS/IPS, and VPN/WireGuard
