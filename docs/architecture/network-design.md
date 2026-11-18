@@ -32,7 +32,7 @@ The environment uses OPNsense and managed switches to connect several network se
 | DMZ / public edge | Entry point for selected internet-facing services | Traefik reverse proxy and associated edge-security controls |
 | Lab / transit networks | Networking practice, test systems, and lab interconnects | Test workstation, lab switching, Cisco networking equipment |
 | Client / wireless networks | End-user and wireless connectivity | Workstations and wireless access points |
-| Logging / monitoring | Security analytics and infrastructure visibility; a functional grouping across the environment | Graylog, Wazuh, Zabbix, Arkime, network telemetry |
+| Logging / monitoring | Security analytics and infrastructure visibility; a functional grouping across the environment | Graylog, Wazuh, Zabbix, ntopng, NetFlow telemetry |
 | Storage | Shared data, media, and backup storage; a functional grouping | NAS systems, NFS services, Proxmox Backup Server |
 
 The distinction between **network segments** and **functional groups** is intentional. For example, a monitoring application can run on a server or VM while receiving logs from several network segments. Likewise, a NAS management interface and its data-serving connections do not have to be represented as one dedicated storage VLAN.
@@ -104,7 +104,7 @@ The security-monitoring architecture brings together network and host telemetry 
 - **Suricata on OPNsense:** WAN traffic inspection and IDS/IPS events.
 - **Graylog:** Centralized ingestion, search, analysis, and security event definitions for syslog, network, and application logs.
 - **Wazuh:** Endpoint security telemetry, agent monitoring, and rule-based detections.
-- **NetFlow and Arkime:** Network-flow visibility and packet-analysis capabilities.
+- **NetFlow and ntopng:** Network-flow collection, traffic analysis, bandwidth visibility, and communication-pattern monitoring.
 - **Zabbix, Grafana, and Uptime Kuma:** Infrastructure health, visualization, and service availability monitoring.
 - **n8n and notification services:** Selected alerting and automation workflows.
 
