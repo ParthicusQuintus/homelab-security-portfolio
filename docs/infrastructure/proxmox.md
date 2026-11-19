@@ -304,4 +304,5 @@ Related Documentation
 - [Graylog Centralized Logging](../security/graylog.md)
 - [Wazuh SIEM/XDR](../security/wazuh.md)
 - [Service Catalog](../service-catalog.md)
+  
 Public portfolio note: This case study describes hands-on homelab engineering and troubleshooting. Names are project labels; real IP addresses, internal DNS, secrets, and sensitive management settings are intentionally excluded. Recorded specifications and historical investigations are identified as such rather than represented as immutable current state.
