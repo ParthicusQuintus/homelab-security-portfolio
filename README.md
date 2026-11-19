@@ -23,7 +23,7 @@ The environment includes physical and virtual Linux/Windows systems, segmented V
 
 ## Documentation
 
-- [Service Catalog]
+- Service Catalog
 - [Network Architecture](docs/architecture/network-design.md)
 - [VLAN Segmentation](docs/architecture/vlan-segmentation.md)
 
