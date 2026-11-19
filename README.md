@@ -32,7 +32,7 @@ The environment includes physical and virtual Linux/Windows systems, segmented V
 Documentation is being added incrementally as I work through the environment.
 
 - [Wazuh SIEM/XDR](docs/security/wazuh.md)
-- Graylog centralized logging
+- [Graylog Centralized Logging](docs/security/graylog.md)
 - Proxmox Virtualization
 - OPNsense firewall. Suricata IDS/IPS, and VPN/WireGuard
 - Traefik reverse proxy and edge security
