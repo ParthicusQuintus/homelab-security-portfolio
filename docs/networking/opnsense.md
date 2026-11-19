@@ -1,4 +1,5 @@
 OPNsense Firewall, Network Segmentation & Security Operations
+
 Project: Castellum Homelab — Network Perimeter and Internal Security Architecture
 Platform: OPNsense / FreeBSD, Omada managed switching, Linux security services
 Status: Active, continuously maintained
